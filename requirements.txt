@@ -3,5 +3,5 @@ pandas
 streamlit
 opencv-python
 easyocr
-base64
+pybase64
 Python-IO

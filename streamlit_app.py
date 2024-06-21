@@ -6,7 +6,7 @@ import pandas as pd
 import os
 from io import BytesIO
 import base64
- 
+@st.cache_data()
 # Define a function to preprocess and extract glucose value from an image
 def preprocess_and_extract(image_path):
     reader = easyocr.Reader(['en'])
